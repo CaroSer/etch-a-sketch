@@ -1,8 +1,21 @@
+@font-face {
+    font-family: Starborn;
+    src: local("Starborn"),
+    local("SStarborn"),
+    url(Starborn.ttf);
+}
+
 body{
     display: flex;
     align-items:center;
     justify-content: center;
     flex-direction: column;
+    font-family: Starborn;
+    background-color: #1D5B79;
+}
+
+h1{
+    color: #F3AA60;
 }
 
 #mainCont{
@@ -11,20 +24,16 @@ body{
     }
 
 #gridContainer{
-    width: 422px;
-    height: 422px;
-    background-color: black;
+    width: 400px;
+    height: 400px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-self: center;
-    justify-self: center;
 }
 
-
-
 #buttonContent{
-    margin-left: -130px;
+    margin-left: -170px;
     margin-right: 60px;
     justify-content: center;
     align-self: center;
@@ -32,15 +41,13 @@ body{
 
 .gridDiv{
     display: block;
-    border-color: black;
-    border-style:solid;
-    border-width: 1px;
     width: 25px;
     height: 25px;
+    margin: 0;
 }
 
 .gridDivColor{
-background-color: blue;
+background-color: black;
 }
 
 .button{
@@ -48,8 +55,9 @@ background-color: blue;
     width: max-content;
     background-color: #F3AA60;
     color: white;
-    border-radius: 5px;
+    border-radius: 100px;
     border-color: #EF6262;
     border-width: 4px;
-
+    font-family: Starborn;
+    padding: 5px;
 }
