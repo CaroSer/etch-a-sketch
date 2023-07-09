@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#gridContainer{
+    width: 422px;
+    height: 422px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#mainCont{
+display: flex;
+flex-direction: row;
+}
+
+.gridDiv{
+    display: block;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+.gridDivColor{
+background-color: blue;
+}
