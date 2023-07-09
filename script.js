@@ -8,3 +8,11 @@ gridDiv.addEventListener("mouseover",function(){
 document.getElementById('gridContainer').appendChild(gridDiv)
 }
 });
+
+function erase(){
+    let gridDiv=Array.from(document.getElementsByClassName("gridDiv"))
+    
+    gridDiv.forEach(function(square){
+        square.classList.remove('gridDivColor')
+    });
+}
