@@ -27,6 +27,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: #EF6262;
 }
 
+
 #buttonContent{
     display: flex;
     margin-left: -170px;
@@ -55,6 +56,7 @@ h1{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: whitesmoke;
 }
 #mainCont{
     display: flex;
@@ -64,10 +66,32 @@ h1{
 #gridContainer{
     width: 400px;
     height: 400px;
-    background-color: white;
+    background-color: #468B97;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 25px 50px  70px 50px;
+    border-radius: 20px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #F3AA60;
+    margin-top: -60px;
+}
+
+.circle:hover{
+background-color: #EF6262;
+
+}
+
+#circlesCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
 }
 
 .gridDiv{
