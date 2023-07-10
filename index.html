@@ -10,11 +10,16 @@
 <body id="body">
     <h1>Etch a sketch</h1>
     <div id="mainCont">
-        <div id="buttonContent">        
+        <div id="buttonContent">     
             <button class="button" onclick="erase()">Erase all</button>
+            <div id="gridSizeCont">
+            <input type="range" id="gridSize" min="1" max="100" value="16" step="1">
+            <p id="gridSizeLabel">16x16</p>
+            </div>
         </div>
 
-        <div id="gridContainer"></div>
+        <div id="gridContainer">
+        </div>
     </div>
 </body>
 </html>
